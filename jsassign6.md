@@ -78,12 +78,12 @@ let arr=[1,2,3,4,5,6]
 
 ```js
  let arr=[5,4,8,79,32,41]
- arr.splice("sreejith", 0, 5)
+ arr.splice( 0, 5, "vidhun")
  console.log(arr);
  ```
 
  ## Q2.
- ![screenshot](./Screenshot(1).png)
+ ![screenshot](Screenshot%20(33).png)
 
 # Q3. Write a JavaScript function to check whether an `input` is an array.
 ### Ans. 
@@ -154,10 +154,10 @@ isEven(99)
 
 ```js
 let checkGuestList = (name) =>{
-    let guestList =["sreejith","arun","ajith","akash","eswar"]
+    let guestList =["vidhun","divya","surya","roshan","hrithik"]
     return guestList.includes(name)? console.log("welcome"):console.log("Sorry, good luck next time");
 }
- checkGuestList("sreejith")
+ checkGuestList("vidhun")
  // welcome
 ```
 
